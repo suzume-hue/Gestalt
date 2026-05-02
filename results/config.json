@@ -1,0 +1,31 @@
+{
+  "ava_annotations_path": "/kaggle/input/datasets/nicolacarrassi/ava-aesthetic-visual-assessment/AVA_Files/AVA.txt",
+  "ava_images_dir": "/kaggle/input/datasets/nicolacarrassi/ava-aesthetic-visual-assessment/images",
+  "log_dir": "/kaggle/working/gestalt_logs",
+  "results_dir": "/kaggle/working/gestalt_results",
+  "sd_model_id": "stabilityai/sd-turbo",
+  "clip_model_name": "ViT-L-14",
+  "clip_pretrained": "openai",
+  "dino_model": "dino_vits8",
+  "n_target_images": 5,
+  "n_trajectories": 3,
+  "n_steps": 3000,
+  "dino_warmup_steps": 100,
+  "nima_warmup_steps": 400,
+  "embed_delta_init_scale": 0.01,
+  "lr": 0.02,
+  "weight_decay": 0.001,
+  "scheduler": "cosine_warm_restarts",
+  "T_0": 200,
+  "T_mult": 2,
+  "weighting": "uncertainty",
+  "sigma_min_clip": 0.25,
+  "sigma_min_dino": 0.25,
+  "sigma_min_nima": 0.3,
+  "ema_alpha": 0.98,
+  "seed": 42,
+  "devices": [
+    "cuda:0",
+    "cuda:1"
+  ]
+}
