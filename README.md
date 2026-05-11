@@ -68,7 +68,7 @@ Each row is one trajectory. Columns are evenly sampled steps from initialization
 
 | Target | Evolution |
 |---|---|
-| 228928 — Sunset | <img width="2830" height="1594" alt="gestalt_grid" src="https://github.com/user-attachments/assets/0655e65d-7667-4c40-98d6-35c4dfec7ea5" />|
+| 228928 — Sunset | ![Gestalt grid 228928](results/228928/gestalt_grid.png) |
 | 518216 — Portrait | ![Gestalt grid 518216](results/518216/gestalt_grid.png) |
 | 854398 — Minerals | ![Gestalt grid 854398](results/854398/gestalt_grid.png) |
 | 857228 — Gallery | ![Gestalt grid 857228](results/857228/gestalt_grid.png) |
