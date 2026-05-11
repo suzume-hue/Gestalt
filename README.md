@@ -72,6 +72,7 @@ Each row is one trajectory. Columns are evenly sampled steps from initialization
 | 518216 — Portrait | ![Gestalt grid 518216](results/518216/gestalt_grid.png) |
 | 854398 — Minerals | ![Gestalt grid 854398](results/854398/gestalt_grid.png) |
 | 857228 — Gallery | ![Gestalt grid 857228](results/857228/gestalt_grid.png) |
+| 33753 — Rural hillside | ![Gestalt grid 33753](results/33753/gestalt_grid.png) |
 
 ### UMAP Convergence Trajectories
 
@@ -83,6 +84,7 @@ Paths through DINO (structural) and CLIP (semantic) space from three random init
 | 518216 — Portrait | ![UMAP 518216](results/518216/umap_convergence.png) |
 | 854398 — Minerals | ![UMAP 854398](results/854398/umap_convergence.png) |
 | 857228 — Gallery | ![UMAP 857228](results/857228/umap_convergence.png) |
+| 33753 — Rural hillside | ![UMAP 33753](results/33753/umap_convergence.png) |
 
 ### Loss Curves
 
@@ -94,6 +96,7 @@ Three-phase curriculum visible in the shading: green = DINO warmup (steps 1–10
 | 518216 — Portrait | ![Loss curves 518216](results/518216/loss_curves.png) |
 | 854398 — Minerals | ![Loss curves 854398](results/854398/loss_curves.png) |
 | 857228 — Gallery | ![Loss curves 857228](results/857228/loss_curves.png) |
+| 33753 — Rural hillside | ![Loss curves 33753](results/33753/loss_curves.png) |
 
 ### NIMA Aesthetic Distribution Convergence
 
@@ -105,6 +108,7 @@ KDE ridge plots of predicted aesthetic distributions across training. Each traje
 | 518216 — Portrait | ![NIMA 518216](results/518216/nima_distributions.png) |
 | 854398 — Minerals | ![NIMA 854398](results/854398/nima_distributions.png) |
 | 857228 — Gallery | ![NIMA 857228](results/857228/nima_distributions.png) |
+| 33753 — Rural hillside | ![NIMA 33753](results/33753/nima_distributions.png) |
 
 ---
 
@@ -171,6 +175,7 @@ results/
   │   ├── gradient_diagnostics.png   — per-task gradient norms and CLIP-DINO alignment
   │   └── lr_schedule.png            — cosine warm restart learning rate schedule
   │
+  ├── 33753/                         — rural hillside, wooden fence posts
   ├── 518216/                        — black-and-white portrait in grass
   ├── 854398/                        — dense red mineral crystals
   └── 857228/                        — gallery interior, figure and abstract painting
